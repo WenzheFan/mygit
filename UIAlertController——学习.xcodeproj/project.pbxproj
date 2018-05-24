@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181119A420B658ED00EB5C7C /* xiaogup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811199C20B658ED00EB5C7C /* xiaogup.png */; };
+		181119A520B658ED00EB5C7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1811199D20B658ED00EB5C7C /* README.md */; };
+		181119A620B658ED00EB5C7C /* MoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181119A020B658ED00EB5C7C /* MoreView.xib */; };
+		181119A720B658ED00EB5C7C /* MoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181119A120B658ED00EB5C7C /* MoreView.m */; };
+		181119A820B658ED00EB5C7C /* sparks.png in Resources */ = {isa = PBXBuildFile; fileRef = 181119A320B658ED00EB5C7C /* sparks.png */; };
 		18B0EEB720B4FE3500D28157 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEB620B4FE3500D28157 /* AppDelegate.m */; };
 		18B0EEBA20B4FE3500D28157 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEB920B4FE3500D28157 /* ViewController.m */; };
 		18B0EEBD20B4FE3500D28157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B0EEBB20B4FE3500D28157 /* Main.storyboard */; };
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1811199C20B658ED00EB5C7C /* xiaogup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaogup.png; sourceTree = "<group>"; };
+		1811199D20B658ED00EB5C7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1811199F20B658ED00EB5C7C /* MoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreView.h; sourceTree = "<group>"; };
+		181119A020B658ED00EB5C7C /* MoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreView.xib; sourceTree = "<group>"; };
+		181119A120B658ED00EB5C7C /* MoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreView.m; sourceTree = "<group>"; };
+		181119A320B658ED00EB5C7C /* sparks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparks.png; sourceTree = "<group>"; };
 		18B0EEB220B4FE3500D28157 /* UIAlertController——学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIAlertController——学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B0EEB520B4FE3500D28157 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B0EEB620B4FE3500D28157 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +89,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1811199A20B658C600EB5C7C /* 信用分 */ = {
+			isa = PBXGroup;
+			children = (
+				1811199B20B658ED00EB5C7C /* 信用分详情介绍 */,
+			);
+			path = "信用分";
+			sourceTree = "<group>";
+		};
+		1811199B20B658ED00EB5C7C /* 信用分详情介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				1811199C20B658ED00EB5C7C /* xiaogup.png */,
+				1811199D20B658ED00EB5C7C /* README.md */,
+				1811199E20B658ED00EB5C7C /* View */,
+				181119A220B658ED00EB5C7C /* 图片 */,
+			);
+			path = "信用分详情介绍";
+			sourceTree = "<group>";
+		};
+		1811199E20B658ED00EB5C7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1811199F20B658ED00EB5C7C /* MoreView.h */,
+				181119A020B658ED00EB5C7C /* MoreView.xib */,
+				181119A120B658ED00EB5C7C /* MoreView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		181119A220B658ED00EB5C7C /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				181119A320B658ED00EB5C7C /* sparks.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
 		18B0EEA920B4FE3500D28157 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +149,7 @@
 		18B0EEB420B4FE3500D28157 /* UIAlertController——学习 */ = {
 			isa = PBXGroup;
 			children = (
+				1811199A20B658C600EB5C7C /* 信用分 */,
 				18B0EEB520B4FE3500D28157 /* AppDelegate.h */,
 				18B0EEB620B4FE3500D28157 /* AppDelegate.m */,
 				18B0EEB820B4FE3500D28157 /* ViewController.h */,
@@ -237,7 +286,11 @@
 			files = (
 				18B0EEC220B4FE3600D28157 /* LaunchScreen.storyboard in Resources */,
 				18B0EEBF20B4FE3600D28157 /* Assets.xcassets in Resources */,
+				181119A520B658ED00EB5C7C /* README.md in Resources */,
 				18B0EEBD20B4FE3500D28157 /* Main.storyboard in Resources */,
+				181119A420B658ED00EB5C7C /* xiaogup.png in Resources */,
+				181119A620B658ED00EB5C7C /* MoreView.xib in Resources */,
+				181119A820B658ED00EB5C7C /* sparks.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +318,7 @@
 				18B0EEBA20B4FE3500D28157 /* ViewController.m in Sources */,
 				18B0EEC520B4FE3600D28157 /* main.m in Sources */,
 				18B0EEB720B4FE3500D28157 /* AppDelegate.m in Sources */,
+				181119A720B658ED00EB5C7C /* MoreView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
