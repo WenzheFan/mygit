@@ -21,7 +21,7 @@
                             <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNl-Q6-MJT">
                                 <rect key="frame" x="35" y="39" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="普通的"/>
                                 <connections>
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="baX-3z-UxW"/>
                                 </connections>
@@ -29,9 +29,33 @@
                             <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXW-VD-rMK">
                                 <rect key="frame" x="35" y="89" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="个信化"/>
                                 <connections>
                                     <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yXw-tn-wuJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5H-fx-rjw">
+                                <rect key="frame" x="35" y="146" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="自定义"/>
+                                <connections>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sR3-Ki-ZcK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FVi-Tp-kC5">
+                                <rect key="frame" x="31" y="212" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="自定义2"/>
+                                <connections>
+                                    <action selector="button32:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NeF-F5-vIb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiK-wp-lwy">
+                                <rect key="frame" x="31" y="276" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="自定义3"/>
+                                <connections>
+                                    <action selector="button33:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1eC-hk-tus"/>
                                 </connections>
                             </button>
                         </subviews>

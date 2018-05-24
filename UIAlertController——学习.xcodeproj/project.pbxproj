@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		181119A420B658ED00EB5C7C /* xiaogup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1811199C20B658ED00EB5C7C /* xiaogup.png */; };
-		181119A520B658ED00EB5C7C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1811199D20B658ED00EB5C7C /* README.md */; };
-		181119A620B658ED00EB5C7C /* MoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181119A020B658ED00EB5C7C /* MoreView.xib */; };
-		181119A720B658ED00EB5C7C /* MoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181119A120B658ED00EB5C7C /* MoreView.m */; };
-		181119A820B658ED00EB5C7C /* sparks.png in Resources */ = {isa = PBXBuildFile; fileRef = 181119A320B658ED00EB5C7C /* sparks.png */; };
+		18AE0A5320B6A56900DEB7EC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 18AE0A5220B6A56800DEB7EC /* README.md */; };
+		18AE0A5720B6A6BB00DEB7EC /* WZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE0A5620B6A6BB00DEB7EC /* WZAlertView.m */; };
+		18AE0A5920B6A6F200DEB7EC /* WZAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AE0A5820B6A6F200DEB7EC /* WZAlertView.xib */; };
+		18AE0A5E20B6B1E200DEB7EC /* MoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AE0A5C20B6B1E200DEB7EC /* MoreView.xib */; };
+		18AE0A5F20B6B1E200DEB7EC /* MoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE0A5D20B6B1E200DEB7EC /* MoreView.m */; };
+		18AE0A6720B6B48100DEB7EC /* WZAlertView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AE0A6620B6B48100DEB7EC /* WZAlertView2.xib */; };
+		18AE0A6A20B6B49C00DEB7EC /* WZAlertView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE0A6920B6B49C00DEB7EC /* WZAlertView2.m */; };
 		18B0EEB720B4FE3500D28157 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEB620B4FE3500D28157 /* AppDelegate.m */; };
 		18B0EEBA20B4FE3500D28157 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EEB920B4FE3500D28157 /* ViewController.m */; };
 		18B0EEBD20B4FE3500D28157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B0EEBB20B4FE3500D28157 /* Main.storyboard */; };
@@ -40,12 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1811199C20B658ED00EB5C7C /* xiaogup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaogup.png; sourceTree = "<group>"; };
-		1811199D20B658ED00EB5C7C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1811199F20B658ED00EB5C7C /* MoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreView.h; sourceTree = "<group>"; };
-		181119A020B658ED00EB5C7C /* MoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreView.xib; sourceTree = "<group>"; };
-		181119A120B658ED00EB5C7C /* MoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreView.m; sourceTree = "<group>"; };
-		181119A320B658ED00EB5C7C /* sparks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparks.png; sourceTree = "<group>"; };
+		18AE0A5220B6A56800DEB7EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18AE0A5520B6A6BB00DEB7EC /* WZAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZAlertView.h; sourceTree = "<group>"; };
+		18AE0A5620B6A6BB00DEB7EC /* WZAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZAlertView.m; sourceTree = "<group>"; };
+		18AE0A5820B6A6F200DEB7EC /* WZAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZAlertView.xib; sourceTree = "<group>"; };
+		18AE0A5B20B6B1E200DEB7EC /* MoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreView.h; sourceTree = "<group>"; };
+		18AE0A5C20B6B1E200DEB7EC /* MoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreView.xib; sourceTree = "<group>"; };
+		18AE0A5D20B6B1E200DEB7EC /* MoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreView.m; sourceTree = "<group>"; };
+		18AE0A6620B6B48100DEB7EC /* WZAlertView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WZAlertView2.xib; sourceTree = "<group>"; };
+		18AE0A6820B6B49C00DEB7EC /* WZAlertView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZAlertView2.h; sourceTree = "<group>"; };
+		18AE0A6920B6B49C00DEB7EC /* WZAlertView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZAlertView2.m; sourceTree = "<group>"; };
 		18B0EEB220B4FE3500D28157 /* UIAlertController——学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIAlertController——学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B0EEB520B4FE3500D28157 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18B0EEB620B4FE3500D28157 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,41 +95,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1811199A20B658C600EB5C7C /* 信用分 */ = {
+		18AE0A4B20B6A52200DEB7EC /* 自定义 */ = {
 			isa = PBXGroup;
 			children = (
-				1811199B20B658ED00EB5C7C /* 信用分详情介绍 */,
+				18AE0A6020B6B21C00DEB7EC /* View3 */,
+				18AE0A5A20B6B1E200DEB7EC /* View */,
+				18AE0A5420B6A68300DEB7EC /* View2 */,
 			);
-			path = "信用分";
+			path = "自定义";
 			sourceTree = "<group>";
 		};
-		1811199B20B658ED00EB5C7C /* 信用分详情介绍 */ = {
+		18AE0A5420B6A68300DEB7EC /* View2 */ = {
 			isa = PBXGroup;
 			children = (
-				1811199C20B658ED00EB5C7C /* xiaogup.png */,
-				1811199D20B658ED00EB5C7C /* README.md */,
-				1811199E20B658ED00EB5C7C /* View */,
-				181119A220B658ED00EB5C7C /* 图片 */,
+				18AE0A5520B6A6BB00DEB7EC /* WZAlertView.h */,
+				18AE0A5620B6A6BB00DEB7EC /* WZAlertView.m */,
+				18AE0A5820B6A6F200DEB7EC /* WZAlertView.xib */,
 			);
-			path = "信用分详情介绍";
+			path = View2;
 			sourceTree = "<group>";
 		};
-		1811199E20B658ED00EB5C7C /* View */ = {
+		18AE0A5A20B6B1E200DEB7EC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1811199F20B658ED00EB5C7C /* MoreView.h */,
-				181119A020B658ED00EB5C7C /* MoreView.xib */,
-				181119A120B658ED00EB5C7C /* MoreView.m */,
+				18AE0A5B20B6B1E200DEB7EC /* MoreView.h */,
+				18AE0A5C20B6B1E200DEB7EC /* MoreView.xib */,
+				18AE0A5D20B6B1E200DEB7EC /* MoreView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		181119A220B658ED00EB5C7C /* 图片 */ = {
+		18AE0A6020B6B21C00DEB7EC /* View3 */ = {
 			isa = PBXGroup;
 			children = (
-				181119A320B658ED00EB5C7C /* sparks.png */,
+				18AE0A6620B6B48100DEB7EC /* WZAlertView2.xib */,
+				18AE0A6820B6B49C00DEB7EC /* WZAlertView2.h */,
+				18AE0A6920B6B49C00DEB7EC /* WZAlertView2.m */,
 			);
-			path = "图片";
+			path = View3;
 			sourceTree = "<group>";
 		};
 		18B0EEA920B4FE3500D28157 = {
@@ -149,7 +158,8 @@
 		18B0EEB420B4FE3500D28157 /* UIAlertController——学习 */ = {
 			isa = PBXGroup;
 			children = (
-				1811199A20B658C600EB5C7C /* 信用分 */,
+				18AE0A5220B6A56800DEB7EC /* README.md */,
+				18AE0A4B20B6A52200DEB7EC /* 自定义 */,
 				18B0EEB520B4FE3500D28157 /* AppDelegate.h */,
 				18B0EEB620B4FE3500D28157 /* AppDelegate.m */,
 				18B0EEB820B4FE3500D28157 /* ViewController.h */,
@@ -286,11 +296,11 @@
 			files = (
 				18B0EEC220B4FE3600D28157 /* LaunchScreen.storyboard in Resources */,
 				18B0EEBF20B4FE3600D28157 /* Assets.xcassets in Resources */,
-				181119A520B658ED00EB5C7C /* README.md in Resources */,
+				18AE0A6720B6B48100DEB7EC /* WZAlertView2.xib in Resources */,
+				18AE0A5320B6A56900DEB7EC /* README.md in Resources */,
 				18B0EEBD20B4FE3500D28157 /* Main.storyboard in Resources */,
-				181119A420B658ED00EB5C7C /* xiaogup.png in Resources */,
-				181119A620B658ED00EB5C7C /* MoreView.xib in Resources */,
-				181119A820B658ED00EB5C7C /* sparks.png in Resources */,
+				18AE0A5920B6A6F200DEB7EC /* WZAlertView.xib in Resources */,
+				18AE0A5E20B6B1E200DEB7EC /* MoreView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AE0A5F20B6B1E200DEB7EC /* MoreView.m in Sources */,
 				18B0EEBA20B4FE3500D28157 /* ViewController.m in Sources */,
+				18AE0A5720B6A6BB00DEB7EC /* WZAlertView.m in Sources */,
+				18AE0A6A20B6B49C00DEB7EC /* WZAlertView2.m in Sources */,
 				18B0EEC520B4FE3600D28157 /* main.m in Sources */,
 				18B0EEB720B4FE3500D28157 /* AppDelegate.m in Sources */,
-				181119A720B658ED00EB5C7C /* MoreView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
